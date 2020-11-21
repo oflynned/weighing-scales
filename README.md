@@ -22,7 +22,7 @@ To use the component in your app, add a recycler view component to a layout
 Then bind this in your view using something like Butterknife, view binding etc.
 
 Make sure your activity/fragment implements the interface MovementListener.
-```
+```java
 class MainActivity extends AppCompatActivity implements ScaleSliderLayoutManager.MovementListener { 
   ...
 }
@@ -58,6 +58,7 @@ You can use the following methods to customise the adapter
 ```java
 ScaleSliderAdapter adapter = new ScaleSliderAdapter();
 
+adapter.setData(List<String> data); // default is an empty list
 adapter.setSpokeColour(String hex); // default is purple-500
 adapter.setSpokeColour(int colour);
 adapter.setCountBetweenMarkers(int count); // default is 10
