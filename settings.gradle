@@ -1,0 +1,4 @@
+include ':scales'
+include ':scale'
+include ':app'
+rootProject.name = "WeighingScales"
