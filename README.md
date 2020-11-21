@@ -2,7 +2,7 @@
 
 A simple component from the [Drynk app](https://play.google.com/store/apps/details?id=com.syzible.drynk) to select a value from a preset list. Useful for onboarding users. 
 
-![Screenshot](./screenshot.png)
+![Screenshot](./screenshot.png =384x)
 
 ## Quickstart
 Add the following to your `app/build.gradle`
