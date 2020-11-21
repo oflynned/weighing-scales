@@ -1,6 +1,6 @@
 # Weighing Scale Component
 
-A simple component from the [Drynk app][https://play.google.com/store/apps/details?id=com.syzible.drynk] to select a value from a preset list. Useful for onboarding users. 
+A simple component from the [Drynk app](https://play.google.com/store/apps/details?id=com.syzible.drynk) to select a value from a preset list. Useful for onboarding users. 
 
 ## Quickstart
 Add the following to your `app/build.gradle`
