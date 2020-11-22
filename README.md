@@ -37,6 +37,8 @@ In a lifecycle hook, instantiate the adapter and set the adapter's dataset with 
 protected void onStart() {
   super.onStart();
 
+  // used to align the first and last spokes with the centre of the screen 
+  // so that left and right of these points are selectable
   int padding = Screen.getScreenWidth(this) / 2;
   binding.weightRecyclerView.setPadding(padding, 0, padding, 0);
 
@@ -62,7 +64,7 @@ ScaleSliderAdapter adapter = new ScaleSliderAdapter();
 
 adapter.setData(List<String> data); // default is an empty list
 adapter.setSpokeColour(String hex); // default is purple-500
-adapter.setSpokeColour(int colour);
+adapter.setSpokeColour(int colour); // can also pass in an integer as a colour
 adapter.setCountBetweenMarkers(int count); // default is 10
 adapter.setLongSpokeHeight(int dp); // default is 32dp
 adapter.setShortSpokeHeight(int dp); // default is 16dp
