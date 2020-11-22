@@ -8,7 +8,9 @@ A simple component from the [Drynk app](https://play.google.com/store/apps/detai
 Add the following to your `app/build.gradle`
 
 ```gradle
-implementation com.syzible.weighingscales@aar:1.0.0
+dependencies {
+  implementation 'com.github.drynk-app:weighing-scales:1.0.1'
+}
 ```
 
 To use the component in your app, add a recycler view component to a layout
